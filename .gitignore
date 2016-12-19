@@ -1,0 +1,11 @@
+Build
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+StarterContent
+
+*.VC.db
+.DS_Store
+
+**/xcuserdata
