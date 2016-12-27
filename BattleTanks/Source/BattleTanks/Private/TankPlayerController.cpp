@@ -18,7 +18,7 @@ void ATankPlayerController::BeginPlay() {
     if(!ControlledTank) {
         UE_LOG(LogTemp, Warning, TEXT("There is currently no controlled Tank"))
     } else {
-        UE_LOG(LogTemp, Warning, TEXT("Player controller possessing: %s"), *ControlledTank->GetName());
+        UE_LOG(LogTemp, Warning, TEXT("Player controller possessing: %s"), *(ControlledTank->GetName()));
     }
     
 }
